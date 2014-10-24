@@ -12,7 +12,7 @@
         <br/>
         <input value="button" type="button" title="mybutton" th:attrprepend="value=${str_var1}+'_',title=${str_var1+'_'}" th:attrappend="value='_'+${str_var1},title=${'_'+str_var1}"/>
        <br/>
-       <img onmouseover="alert('Hello!')" th:attr="src=@{/gtvglogo.png},title=${str_var1},alt=${str_var1}" />
+       <img th:attr="src=@{/myimage.png},title=${str_var1},alt=${str_var1}" />
        <br/>
        <a th:attr="href=@{/}">back</a>
    </div>
